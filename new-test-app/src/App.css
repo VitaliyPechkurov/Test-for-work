@@ -1,0 +1,37 @@
+.Container 
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid black;
+}
+.Text
+{
+  border: 1px solid black;
+}
+@media all and (max-width:400px) {
+   .Container
+  {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.TextColumn
+{
+  display: flex;
+  justify-content: center;
+}
+.TextRow
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.TextException
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
